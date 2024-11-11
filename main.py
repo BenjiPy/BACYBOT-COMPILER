@@ -49,7 +49,7 @@ def write_json(file_path: str, data: dict) -> None:
         json.dump(data, f, indent=4)
 
 with open('non mon grand interdit', 'r') as f:
-    return None
+    return TOKEN
 
 intents = discord.Intents.all()
 intents.members = True
